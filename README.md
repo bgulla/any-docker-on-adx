@@ -49,6 +49,8 @@ latest: digest: sha256:68e619843f36f93661bfe202d77061e6e6e93b4a953150a25a7a35d8a
 
 ```
 
+![Dockerhub](/static/dockerhub.png?raw=true)
+
 Now the Docker image resides in the public Docker registry, let's get it deploy on ADX.
 
 ## Deploying our new Docker on ADX
