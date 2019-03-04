@@ -16,7 +16,7 @@ USER 1001
 
 WORKDIR /src
 
-ENTRYPOINT ["container-entrypoint"]
+#ENTRYPOINT ["container-entrypoint"]
 
-CMD ["python", "/usr/bin/helloworld.py"]
+CMD ["python", "/src/hello_world.py"]
 
