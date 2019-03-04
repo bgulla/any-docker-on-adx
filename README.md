@@ -3,6 +3,9 @@
 In order to allow tenant developers with the freedom required to develop great tools, you are able to deploy **any** Docker image on the 
 ADX platform. In the tutorial below, we will show a custom-made docker (being stored on DockerHub) running on the ADX Platform.
 
+
+![Dockerhub](/static/dockerhub.png?raw=true)
+
 ## Creating the Dockerfile
 
 #### Dockerfile
@@ -48,8 +51,6 @@ f154e7defe4a: Layer already exists
 latest: digest: sha256:68e619843f36f93661bfe202d77061e6e6e93b4a953150a25a7a35d8a9576c33 size: 1154
 
 ```
-
-![Dockerhub](/static/dockerhub.png?raw=true)
 
 Now the Docker image resides in the public Docker registry, let's get it deploy on ADX.
 
