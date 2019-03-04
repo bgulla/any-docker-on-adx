@@ -27,7 +27,7 @@ WORKDIR /src
 
 ENTRYPOINT ["container-entrypoint"]
 
-CMD ["python", "/usr/bin/helloworld.py"]
+CMD ["python", "/usr/bin/hello_world.py"]
 ```
 
 ## Building the Dockerfile
@@ -55,8 +55,13 @@ Now the Docker image resides in the public Docker registry, let's get it deploy 
 
 ## Deploying our new Docker on ADX
 
+![Deploying the container on ADX](/static/deploy.png?raw=true)
 
 ## Successful Deployment on ADX
 
+![Pod Running](/static/running.png?raw=true)
+
 ## Proof of Docker running on the platform
+
+![Logs](/static/logs.png?raw=true)
 
